@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms practice</title>
+</head>
+<body>
+    <form>
+        Username: <input type="text" placeholder="email"><br>
+        password: <input type="password">
+    </form>
+    <!--action attribute-->
+    <form action="\submit.php" method="post">
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+
+    </form>
+    <!--name and value property-->
+    <!--label tag-->
+    <form action="/contact.me"> `
+        <label for="email">Username</label>
+        <input type="text" id="email" placeholder="email" required="true"><br>
+        <label for="user_password">Password</label>
+        <input type="password" id="user_password" ><br>
+        <input type="submit">
+
+    </form>
+    <form action="/php-me">
+  date: <input type="date"><br>
+  file: <input type="file"><br>
+color: <input type="color"><br>
+price range:<input type="range"><br>
+tap me:<input type="button" value="click"><br>
+submitit:<input type="submit"><hr>
+<!--radio button-->
+<label for="male">Male:</label>
+<input type="radio" id="male" name="gender" value="male"><br>
+<label for="female">Female:</label>
+<input type="radio" id="female" name="gender" value="female"><br>
+<label for="other">other:</label>
+<input type="radio" id="other" name="gender" value="other"><hr>
+<!--checkbox button-->
+<label for="c">c</label>
+<input type="checkbox" name="language" value="c" id="c"><br>
+<label for="java">java</label>
+<input type="checkbox" name="language" value="java" id="java"><br>
+<label for="html">html</label>
+<input type="checkbox" name="langauge" value="html" id="html"><hr>
+<!--dropdown using select button-->
+<label for="country">select the country</label>
+<select name="country" id="country">
+    <option value="India">India</option>
+    <option value="united states">united states</option>
+    <option value="united kingdom">united kingdom</option>
+    <option value="other">other</option><hr>
+    </select><hr>
+    <!--textarea input-->
+    <textarea name="story" id="story" cols="20" rows="6">
+        please write a story
+    </textarea>
+</form>
+</body>
+</html>
