@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /*universal selector with * */
+        *{
+            color: red;
+        }
+        /*class id selector with # */
+        #heading{
+            color:aqua;
+        }
+            /*class selector with . */ 
+        .random_text{
+            color:blanchedalmond;
+        }
+        /*group selector with using comma*/
+        h2,#text{
+            color:blue;
+        }
+        /*descendant selector*/
+       #descendant p{
+            color:brown;
+            
+        }
+
+    </style>
+</head>
+<body>
+   
+    <h1 id="heading">this colours whole page text</h1>
+    <p class="random_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, reiciendis.</p>
+    <p class="random_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptate dicta excepturi tempora et nemo saepe, enim ut laboriosam! Excepturi totam nihil nemo harum aliquid aperiam autem, dolore quod dignissimos.</p>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p id="text">Lorem ipsum dolor sit amet.</p>
+    <div id="descendant">
+        <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+<p>Lorem ipsum dolor sit amet.</p>
+    
+</body>
+</html>

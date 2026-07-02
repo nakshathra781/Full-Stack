@@ -1,0 +1,47 @@
+/*this is my comment*/
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+   padding:5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left:70px;
+    padding:100px;
+}
+header{
+    background-color: aquamarine;
+    height:30px;
+    }
+#second{
+    height:50px;
+    
+    background-color:green;
+    border-radius:50%;
+    }
+    .box{
+        height:100px;
+        width:100px;
+        background-color:red;
+        margin:5px;
+        
+    }
+    #container{
+        border:3px solid blueviolet;
+        margin:10px;
+    }
+    #box4{
+        position: fixed;
+        right:10px;
+    }
+    #box2{
+        z-index: 2;
+        position:absolute;
+        left:20px;
+    }
+    footer{
+        position: fixed;
+        bottom:5px;
+    }
